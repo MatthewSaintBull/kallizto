@@ -1,3 +1,30 @@
+.navbar, .navbar-primary {
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 50px;
+  display: flex;
+  margin-bottom: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.navbar-primary {
+  background-color: #616161;
+}
+
+.navbar > .btn, .navbar > .btn-primary, .navbar-primary > .btn, .navbar-primary > .btn-primary {
+  height: 100%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 0px;
+}
+
+.container {
+  padding-top: 50px;
+}
+
 .col, .col-lg, .col-md {
   display: flex;
   flex-direction: column;

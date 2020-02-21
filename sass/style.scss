@@ -1,5 +1,7 @@
-$primary-bg-color: rgb(97, 97, 97);
-$primary-color: white;
+@use '_navbar';
+@use '_container';
+@import 'colors';
+
 .col{
     display: flex;
     flex-direction: column;
