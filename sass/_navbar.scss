@@ -1,0 +1,27 @@
+@import "colors";
+
+.navbar {
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 50px;
+  display: flex;
+  margin-bottom: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+
+  
+  &-primary {
+    @extend .navbar;
+    background-color: $primary-bg-color;
+  }
+}
+
+.navbar > .btn {
+  height: 100%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 0px;
+}
