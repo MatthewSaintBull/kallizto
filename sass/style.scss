@@ -1,0 +1,43 @@
+$primary-bg-color: rgb(97, 97, 97);
+$primary-color: white;
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+    &-md{
+        @extend .col;
+        flex: 1;
+    }
+
+    &-lg{
+        @extend .col;
+        flex: 2;
+    }
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.btn {
+    border: 0;
+    outline:none;
+    border-radius: 5px;
+    height: 32px;
+    width: 100px;
+    font-size: large;
+    &-primary {
+        @extend .btn;
+        background-color: $primary-bg-color;
+        color: $primary-color;
+    }
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+

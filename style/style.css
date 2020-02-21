@@ -1,0 +1,37 @@
+.col, .col-lg, .col-md {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.col-md {
+  flex: 1;
+}
+.col-lg {
+  flex: 2;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.btn, .btn-primary {
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  height: 32px;
+  width: 100px;
+  font-size: large;
+}
+.btn-primary {
+  background-color: #616161;
+  color: white;
+}
+
+.btn:hover, .btn-primary:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=style.css.map */
