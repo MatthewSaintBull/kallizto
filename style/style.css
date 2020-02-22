@@ -37,6 +37,21 @@
   padding-top: 50px;
 }
 
+.input, .input-primary {
+  border: 0;
+  height: 30px;
+  outline: none;
+  font-size: large;
+}
+.input-primary {
+  background-color: #616161;
+  color: white;
+}
+
+.input:disabled, .input-primary:disabled {
+  opacity: 0.6;
+}
+
 body {
   font-family: Quicksand;
   font-size: large;
