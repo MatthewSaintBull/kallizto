@@ -1,45 +1,52 @@
 @use '_navbar';
 @use '_container';
-@import 'colors';
+@import "colors";
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
 
-.col{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
 
-    &-md{
-        @extend .col;
-        flex: 1;
-    }
 
-    &-lg{
-        @extend .col;
-        flex: 2;
-    }
+body {
+  font-family: Quicksand;
+  font-size: large;
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+
+  &-md {
+    @extend .col;
+    flex: 1;
+  }
+
+  &-lg {
+    @extend .col;
+    flex: 2;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .btn {
-    border: 0;
-    outline:none;
-    border-radius: 5px;
-    height: 32px;
-    width: 100px;
-    font-size: large;
-    &-primary {
-        @extend .btn;
-        background-color: $primary-bg-color;
-        color: $primary-color;
-    }
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  height: 32px;
+  width: 100px;
+  font-size: large;
+  &-primary {
+    @extend .btn;
+    background-color: $primary-bg-color;
+    color: $primary-color;
+  }
 }
 
 .btn:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
-
