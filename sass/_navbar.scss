@@ -10,17 +10,27 @@
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-
-  
   &-primary {
     @extend .navbar;
     background-color: $primary-bg-color;
+    color: $primary-color
   }
 }
 
 .navbar > .btn {
   height: 100%;
   border-left: 1px solid white;
-  border-right: 1px solid white;
   border-radius: 0px;
+}
+
+.navbar > .btn:hover{
+  opacity: 0.5;
+}
+
+.navbar > .brand {
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex: 1;
 }
