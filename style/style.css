@@ -38,6 +38,7 @@
 }
 
 .input, .input-primary {
+  border-radius: 0.25rem;
   border: 0;
   height: 30px;
   outline: none;
@@ -46,6 +47,10 @@
 .input-primary {
   background-color: #616161;
   color: white;
+}
+
+.input:hover, .input-primary:hover {
+  opacity: 0.8;
 }
 
 .input:disabled, .input-primary:disabled {
@@ -79,7 +84,7 @@ body {
 .btn, .btn-primary {
   border: 0;
   outline: none;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   height: 32px;
   width: 100px;
   font-size: large;
