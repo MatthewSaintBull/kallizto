@@ -58,8 +58,16 @@
   flex: 1;
 }
 
-.container {
+.navbar:active .container, .navbar-primary:active .container, .navbar-secondary:active .container {
   padding-top: 50px;
+}
+
+.container-nav {
+  padding-top: 50px;
+}
+
+.container-side {
+  padding-left: 120px;
 }
 
 .input, .input-secondary, .input-primary {
@@ -130,6 +138,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  position: relative;
   width: 100%;
 }
 

@@ -40,3 +40,9 @@
   align-content: flex-start;
   flex: 1;
 }
+
+.navbar:active{
+  .container {
+    padding-top: 50px;   
+   }
+} 

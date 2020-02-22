@@ -10,7 +10,9 @@
   height: 100%;
   top: 0%;
   overflow: hidden;
-  
+
+
+
   &-primary {
     @extend .sidebar;
     background-color: $primary-bg-color;
@@ -21,7 +23,7 @@
   }
 }
 
-.sidebar > *{
-    width: 100%;
-    border-radius: 0;
+.sidebar > * {
+  width: 100%;
+  border-radius: 0;
 }
