@@ -117,6 +117,32 @@
   border-radius: 0;
 }
 
+.select, .select-secondary, .select-primary {
+  border-radius: 0rem;
+  border: 0;
+  text-align-last: center;
+  height: 30px;
+  font-size: large;
+  outline: none;
+}
+.select-primary {
+  background-color: #2e3131 !important;
+  color: white;
+  border-right: 20px solid #e74c3c;
+}
+.select-secondary {
+  background-color: #e74c3c !important;
+  color: white;
+  border-right: 20px solid #2e3131;
+}
+
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
 body {
   font-family: Quicksand;
   font-size: large;

@@ -1,0 +1,30 @@
+@import "colors";
+
+
+.select {
+  border-radius: 0rem;
+  border: 0;
+  text-align-last: center;
+  height: 30px;
+  font-size: large;
+  outline: none;
+  &-primary {
+    @extend .select;
+    background-color: $primary-bg-color !important;
+    color: $primary-color;
+    border-right: 20px solid $secondary-bg-color;
+  }
+  &-secondary {
+    @extend .select;
+    background-color: $secondary-bg-color !important;
+    color: $secondary-color;
+    border-right: 20px solid $primary-bg-color;
+  }
+}
+
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}

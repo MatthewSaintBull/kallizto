@@ -10,6 +10,7 @@
     &-primary {
       @extend .btn;
       background-color: $primary-bg-color;
+      
       color: $primary-color;
     }
     &-secondary {
