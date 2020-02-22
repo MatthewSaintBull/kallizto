@@ -1,0 +1,27 @@
+@import "colors";
+
+.sidebar {
+  position: absolute;
+  width: 120px;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  left: 0;
+  height: 100%;
+  top: 0%;
+  overflow: hidden;
+  
+  &-primary {
+    @extend .sidebar;
+    background-color: $primary-bg-color;
+  }
+  &-secondary {
+    @extend .sidebar;
+    background-color: $secondary-bg-color;
+  }
+}
+
+.sidebar > *{
+    width: 100%;
+    border-radius: 0;
+}
