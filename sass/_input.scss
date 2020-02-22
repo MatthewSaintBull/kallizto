@@ -12,6 +12,11 @@
     background-color: $primary-bg-color;
     color: $primary-color;
   }
+  &-secondary {
+    @extend .input;
+    background-color: $secondary-bg-color;
+    color: $secondary-color;
+  }
 }
 
 .input:hover {

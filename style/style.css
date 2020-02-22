@@ -62,7 +62,7 @@
   padding-top: 50px;
 }
 
-.input, .input-primary {
+.input, .input-secondary, .input-primary {
   border-radius: 0.25rem;
   border: 0;
   height: 30px;
@@ -73,12 +73,16 @@
   background-color: #2e3131;
   color: white;
 }
+.input-secondary {
+  background-color: #e74c3c;
+  color: white;
+}
 
-.input:hover, .input-primary:hover {
+.input:hover, .input-primary:hover, .input-secondary:hover {
   opacity: 0.8;
 }
 
-.input:disabled, .input-primary:disabled {
+.input:disabled, .input-primary:disabled, .input-secondary:disabled {
   opacity: 0.6;
 }
 
