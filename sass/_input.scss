@@ -1,6 +1,8 @@
 @import "colors";
 
 .input {
+  border-radius: .25rem;
+
   border: 0;
   height: 30px;
   outline: none;
@@ -12,6 +14,10 @@
   }
 }
 
-.input:disabled{
-    opacity: 0.6;
+.input:hover {
+  opacity: 0.8;
+}
+
+.input:disabled {
+  opacity: 0.6;
 }
