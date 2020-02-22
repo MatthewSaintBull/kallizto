@@ -1,3 +1,4 @@
+@use '_button';
 @import "colors";
 
 .navbar {
@@ -13,11 +14,16 @@
   &-primary {
     @extend .navbar;
     background-color: $primary-bg-color;
-    color: $primary-color
+    color: $primary-color;
+  }
+  &-secondary {
+    @extend .navbar;
+    background-color: $secondary-bg-color;
+    color: $secondary-color;
   }
 }
 
-.navbar > .btn {
+.navbar > * {
   height: 100%;
   border-left: 1px solid white;
   border-radius: 0px;

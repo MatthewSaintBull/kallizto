@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Quicksand");
-.navbar, .navbar-primary {
+.btn, .btn-secondary, .btn-primary {
+  border: 0;
+  outline: none;
+  border-radius: 0.25rem;
+  height: 32px;
+  width: 100px;
+  font-size: large;
+}
+.btn-primary {
+  background-color: #2e3131;
+  color: white;
+}
+.btn-secondary {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn:hover, .btn-primary:hover, .btn-secondary:hover {
+  opacity: 0.8;
+}
+
+.navbar, .navbar-secondary, .navbar-primary {
   justify-content: flex-end;
   position: fixed;
   top: 0;
@@ -11,21 +32,25 @@
   flex-wrap: wrap;
 }
 .navbar-primary {
-  background-color: #616161;
+  background-color: #2e3131;
+  color: white;
+}
+.navbar-secondary {
+  background-color: #e74c3c;
   color: white;
 }
 
-.navbar > .btn, .navbar > .btn-primary, .navbar-primary > .btn, .navbar-primary > .btn-primary {
+.navbar > *, .navbar-primary > *, .navbar-secondary > * {
   height: 100%;
   border-left: 1px solid white;
   border-radius: 0px;
 }
 
-.navbar > .btn:hover, .navbar > .btn-primary:hover, .navbar-primary > .btn:hover, .navbar-primary > .btn-primary:hover {
+.navbar > .btn:hover, .navbar-primary > .btn:hover, .navbar-secondary > .btn:hover {
   opacity: 0.5;
 }
 
-.navbar > .brand, .navbar-primary > .brand {
+.navbar > .brand, .navbar-primary > .brand, .navbar-secondary > .brand {
   min-height: 100%;
   max-height: 100%;
   justify-content: flex-start;
@@ -45,7 +70,7 @@
   font-size: large;
 }
 .input-primary {
-  background-color: #616161;
+  background-color: #2e3131;
   color: white;
 }
 
@@ -79,23 +104,6 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100%;
-}
-
-.btn, .btn-primary {
-  border: 0;
-  outline: none;
-  border-radius: 0.25rem;
-  height: 32px;
-  width: 100px;
-  font-size: large;
-}
-.btn-primary {
-  background-color: #616161;
-  color: white;
-}
-
-.btn:hover, .btn-primary:hover {
-  opacity: 0.8;
 }
 
 /*# sourceMappingURL=style.css.map */
