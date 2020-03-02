@@ -1,0 +1,33 @@
+@import "colors";
+
+.mobile {
+  text-align: center;
+  border: 0;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  position: fixed;
+  color: white;
+}
+.mobile > i {
+  font-size: xx-large;
+  vertical-align: center;
+}
+@media screen and (min-width: 600px) {
+  [class^="navbar"] [class^="mobile"] {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  [class^="navbar"] [class^="btn"] {
+    width: 100%;
+    display: none;
+    border: 0;
+  }
+  [class^="navbar"]  > .brand{
+    justify-content: center;
+    margin: auto;
+  }
+}
