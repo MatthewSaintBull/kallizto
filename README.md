@@ -4,10 +4,10 @@ another css library made only because I need a standard for my projects
 
 ## Menu
 
- 1. <a href="#html-setup">HTML5 setup</a>  
- 2. <a href="#layout">Layout</a>
- 3. <a href="#navbar">Navbar</a>
-
+ - <a href="#html-setup">HTML5 setup</a>  
+ - <a href="#layout">Layout</a>
+ - <a href="#navbar">Navbar</a>
+ - <a href="#input">Input</a>
 
   <section id="html-setup"></section>
   
@@ -70,5 +70,14 @@ The `<h2></h2>` tag it's only a logo tag. You can use whatever you want using th
 
 > **Warning** :warning: the logo has been tested only with `<h2></h2>` and `<p></p>`but it should work either with images
 
+  <section id="input"></section>
+  
+## Input :black_nib:
+
+### Primary
+`<input type="text" class="input-primary">`
+
+### Secondary
+`<input type="text" class="input-secondary">`
 
 
