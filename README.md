@@ -4,9 +4,11 @@ another css library made only because I need a standard for my projects
 
 ## Menu
 
- 1. <a href="#html-setup">HTML5 setup</a>  
- 2. <a href="#layout">Layout</a>
- 3. <a href="#navbar">Navbar</a>
+ - <a href="#html-setup">HTML5 setup</a>  
+ - <a href="#layout">Layout</a>
+ - <a href="#navbar">Navbar</a>
+ - <a href="#input">Input</a>
+ - <a href="#modal">Modal</a>
 
 
   <section id="html-setup"></section>
@@ -69,6 +71,30 @@ The `<a></a>` tag it's necessary for responsivity
 The `<h2></h2>` tag it's only a logo tag. You can use whatever you want using the class 'brand' 
 
 > **Warning** :warning: the logo has been tested only with `<h2></h2>` and `<p></p>`but it should work either with images
+
+  <section id="input"></section>
+  
+## Input :black_nib:
+
+### Primary
+`<input type="text" class="input-primary">`
+
+### Secondary
+`<input type="text" class="input-secondary">`
+
+  <section id="modal"></section>
+
+
+## Modal :pencil2:
+Modal requires a button like the example below 
+
+    <button class="btn-mdl btn-primary"></button>
+  
+ and a div with the class "modal" which will be the container of the modal. 
+
+`<div class="modal"></div>`
+
+> **Warning** :warning: This modal hasn't yet an "exit" button. It will be available as soon as possible
 
 
 
