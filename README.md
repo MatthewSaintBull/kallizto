@@ -8,6 +8,8 @@ another css library made only because I need a standard for my projects
  - <a href="#layout">Layout</a>
  - <a href="#navbar">Navbar</a>
  - <a href="#input">Input</a>
+ - <a href="#modal">Modal</a>
+
 
   <section id="html-setup"></section>
   
@@ -79,5 +81,20 @@ The `<h2></h2>` tag it's only a logo tag. You can use whatever you want using th
 
 ### Secondary
 `<input type="text" class="input-secondary">`
+
+  <section id="modal"></section>
+
+
+## Modal :pencil2:
+Modal requires a button like the example below 
+
+    <button class="btn-mdl btn-primary"></button>
+  
+ and a div with the class "modal" which will be the container of the modal. 
+
+`<div class="modal"></div>`
+
+> **Warning** :warning: This modal hasn't yet an "exit" button. It will be available as soon as possible
+
 
 
