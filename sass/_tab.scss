@@ -1,0 +1,53 @@
+@import "colors";
+
+.tab-container {
+  position: relative;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.pane {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.tab-nav {
+  justify-content: flex-end;
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 50px;
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  &-primary {
+    @extend .tab-nav;
+    background-color: $primary-bg-color;
+    color: $primary-color;
+  }
+  &-secondary {
+    @extend .tab-nav;
+    background-color: $secondary-bg-color;
+    color: $secondary-color;
+  }
+}
+
+.btn-tab {
+  height: 100%;
+  flex: 1;
+  border: 0;
+  background-color: $primary-bg-color;
+  color: white;
+  outline: none;
+  &:active {
+    @extend .btn-tab;
+    opacity: 0.2;
+  }
+}
+
+.active {
+  background-color: yellow !important
+  ;
+}

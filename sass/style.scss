@@ -1,5 +1,6 @@
 @use '_button';
 @use '_navbar';
+@use '_row';
 @use '_container';
 @use '_input';
 @use '_sidebar';
@@ -7,8 +8,10 @@
 @use '_image';
 @use '_modal';
 @use '_mobile';
-@import "colors";
+@use '_column';
+@use'_tab';
 
+@import "colors";
 @import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand');
 
 body {
@@ -16,27 +19,7 @@ body {
   font-size: large;
 }
 
-.col {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
 
-  &-md {
-    @extend .col;
-    flex: 1;
-  }
 
-  &-lg {
-    @extend .col;
-    flex: 2;
-  }
-}
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  position: relative;
-  width: 100%;
-}
 

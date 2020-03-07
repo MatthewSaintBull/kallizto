@@ -1,0 +1,16 @@
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  
+    &-md {
+      @extend .col;
+      flex: 1;
+    }
+  
+    &-lg {
+      @extend .col;
+      flex: 2;
+    }
+  }
