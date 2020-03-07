@@ -9,6 +9,7 @@ another css library made only because I need a standard for my projects
  - <a href="#navbar">Navbar</a>
  - <a href="#input">Input</a>
  - <a href="#modal">Modal</a>
+ - <a href="#tabbar">Tabs</a>
 
 
   <section id="html-setup"></section>
@@ -97,4 +98,23 @@ Modal requires a button like the example below
 > **Warning** :warning: This modal hasn't yet an "exit" button. It will be available as soon as possible
 
 
+  <section id="tabbar"></section>
+
+## Tabs
+The tabs component works with a container which needs to contain all the panes necessaries for that tab component. Every single need must have an id. You can see an example below.
+
+````
+<div class="tab-container"> <!-- the tab container which will have the layout of the tab component -->
+    <div class="tab-nav-primary"></div> <!-- the navigation tab -->
+    <div class="pane" id="pane1"> <!-- the panes inside the tab container -->
+        <p>pane-1</p>
+    </div>
+    <div class="pane" id="pane2">
+        <p>pane-2</p>
+    </div>
+    <div class="pane" id="pane3">
+        <p>pane-3</p>
+    </div>
+</div>
+````
 
