@@ -264,7 +264,7 @@ select {
   height: 100%;
   flex: 1;
   border: 0;
-  background-color: #2e3131;
+  background-color: transparent;
   color: white;
   outline: none;
 }
