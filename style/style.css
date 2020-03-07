@@ -46,6 +46,7 @@
   border-radius: 0px;
   text-align: center;
   text-align-last: center;
+  display: flex;
 }
 
 .navbar > .btn:hover, .navbar-primary > .btn:hover, .navbar-secondary > .btn:hover {
@@ -184,6 +185,10 @@ select {
 @media screen and (min-width: 600px) {
   [class^=navbar] [class^=mobile] {
     display: none;
+  }
+
+  [class^=navbar] [class^=btn] {
+    display: block !important;
   }
 }
 @media screen and (max-width: 600px) {

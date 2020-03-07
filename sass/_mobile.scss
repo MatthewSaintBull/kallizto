@@ -18,6 +18,9 @@
   [class^="navbar"] [class^="mobile"] {
     display: none;
   }
+  [class^="navbar"] [class^="btn"] {
+    display: block !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
