@@ -280,6 +280,20 @@ select {
   background-color: yellow !important;
 }
 
+.footer, .footer-primary {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  height: 50px;
+  color: white;
+  justify-content: center;
+}
+.footer-primary {
+  background-color: #2e3131;
+}
+
 body {
   font-family: Quicksand;
   font-size: large;
