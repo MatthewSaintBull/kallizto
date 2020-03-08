@@ -160,7 +160,8 @@ select {
 }
 
 .responsive {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   height: auto;
 }
 
@@ -216,16 +217,19 @@ select {
     margin: auto;
   }
 }
-.col, .col-lg, .col-md {
+.col, .col-sm, .col-lg, .col-md {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
 }
 .col-md {
-  flex: 1;
+  flex: 8;
 }
 .col-lg {
-  flex: 2;
+  flex: 12;
+}
+.col-sm {
+  flex: 4;
 }
 
 .tab-container {

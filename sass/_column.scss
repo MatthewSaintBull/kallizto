@@ -6,11 +6,16 @@
   
     &-md {
       @extend .col;
-      flex: 1;
+      flex: 8;
     }
   
     &-lg {
       @extend .col;
-      flex: 2;
+      flex: 12;
+    }
+
+    &-sm {
+      @extend .col;
+      flex: 4;
     }
   }
