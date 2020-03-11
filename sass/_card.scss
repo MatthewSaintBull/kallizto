@@ -1,0 +1,16 @@
+@import "_colors";
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 30%;
+  max-width:100%;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.card-footer{
+    padding: 2px 16px;
+}

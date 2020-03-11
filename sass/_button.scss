@@ -4,8 +4,9 @@
     border: 0;
     outline: none;
     border-radius: .25rem;
-    height: 32px;
-    width: 100px;
+    height: auto;
+    width: auto;
+    display: block;
     font-size: large;
     &-primary {
       @extend .btn;
